@@ -1,0 +1,64 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.names{
+    float: left;
+    width: 55%;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+img{
+    border-radius: 35px;
+    min-width: 10%;
+    max-width: 75%;
+
+    float: left;
+    padding: 0.6em;
+}
+@media(min-width: 50em){
+    .pic1{
+        float: left;
+        width: 30%;
+        padding: 1em;
+    }
+    .pic2{
+        float: left;
+        width: 30%;
+        padding: 1em;
+    }
+    .pic3{
+        float: left;
+        width: 30%;
+        padding: 1em;
+    }
+    
+}
+h3{
+    display: flex;
+}
+.atk{
+    text-align: left;
+}
+.clearfix{
+    overflow: auto;
+    zoom: 1;
+}
